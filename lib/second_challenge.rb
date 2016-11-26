@@ -7,7 +7,7 @@ def second_challenge
   }
 
   #code your solution here!
-
-  
-
+  list = []
+  groceries.values.each { |sublist| sublist.each { |item| list << item } }
+  list
 end
